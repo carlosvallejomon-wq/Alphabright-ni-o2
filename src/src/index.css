@@ -1,0 +1,18 @@
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Inter", ui-sans-serif, system-ui, sans-serif;
+}
+
+body {
+  @apply bg-stone-50 text-stone-900 antialiased;
+  font-family: var(--font-sans);
+}
+
+.kids-card {
+  @apply bg-white rounded-3xl shadow-sm border-2 border-stone-100 transition-all duration-300 p-6;
+}
+
+.kids-button {
+  @apply px-6 py-3 rounded-2xl font-bold transition-all active:scale-95 shadow-md;
+}
